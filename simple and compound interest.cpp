@@ -13,7 +13,7 @@ int main()
 	scanf("%f",&t);
 	s=(p*r*t)/100;
 	printf("simple interest is %f",s);
-	c=p*pow(1+r/(n*100),n*t);
+	c=p*pow(1+r/(n*100),n*t)-p;
 	printf("compound interest is %f",c);
 	return 0;
 }
